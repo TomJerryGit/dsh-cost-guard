@@ -1,38 +1,38 @@
-﻿{
-    "title":  {
-                  "en":  "dsh-cost-guard",
-                  "zh":  "费用护栏"
-              },
-    "format":  1,
-    "plugins":  [
-                    {
-                        "repository":  {
-                                           "url":  "https://github.com/TomJerryGit/dsh-cost-guard"
-                                       },
-                        "versions":  [
-                                         {
-                                             "publishTimestamp":  1794388716,
-                                             "source":  {
-                                                            "type":  "npm"
-                                                        },
-                                             "engines":  {
-                                                             "dsh":  "\u003e=0.2.0-rc.2"
-                                                         },
-                                             "version":  "0.1.0"
-                                         }
-                                     ],
-                        "title":  {
-                                      "en":  "Token Cost Guard",
-                                      "zh":  "Token 费用护栏"
-                                  },
-                        "name":  "@tomjerrygit/dsh-cost-guard",
-                        "description":  {
-                                            "en":  "Usage and cache analytics, budgets, automatic savings mode, model discovery, and high-cost workspace thrift.",
-                                            "zh":  "用量与缓存分析、预算护栏、自动省钱模式、模型发现与高消耗工作区省流。"
-                                        },
-                        "author":  "TomJerryGit",
-                        "icon":  "icons/icon.svg",
-                        "homepage":  "https://github.com/TomJerryGit/dsh-cost-guard#readme"
-                    }
-                ]
+{
+  "title": {
+    "en": "dsh-cost-guard",
+    "zh": "费用护栏"
+  },
+  "format": 1,
+  "plugins": [
+    {
+      "repository": {
+        "url": "https://github.com/TomJerryGit/dsh-cost-guard"
+      },
+      "versions": [
+        {
+          "publishTimestamp": 1794388716,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          },
+          "version": "0.1.0"
+        }
+      ],
+      "title": {
+        "en": "Token Cost Guard",
+        "zh": "Token 费用护栏"
+      },
+      "name": "@tomjerrygit/dsh-cost-guard",
+      "description": {
+        "en": "Usage and cache analytics, budgets, automatic savings mode, model discovery, and high-cost workspace thrift.",
+        "zh": "用量与缓存分析、预算护栏、自动省钱模式、模型发现与高消耗工作区省流。"
+      },
+      "author": "TomJerryGit",
+      "icon": "icons/icon.svg",
+      "homepage": "https://github.com/TomJerryGit/dsh-cost-guard#readme"
+    }
+  ]
 }
