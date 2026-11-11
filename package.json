@@ -1,0 +1,64 @@
+{
+  "name": "@tomjerrygit/dsh-cost-guard",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Token cost guard for DeepSeek Harness: usage and cache analytics, budgets, automatic savings mode, compaction status, cheaper-model discovery, and high-cost workspace thrift lists.",
+  "type": "module",
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "author": {
+    "name": "TomJerryGit"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomJerryGit/dsh-cost-guard.git"
+  },
+  "homepage": "https://github.com/TomJerryGit/dsh-cost-guard#readme",
+  "bugs": {
+    "url": "https://github.com/TomJerryGit/dsh-cost-guard/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "tokens",
+    "cost",
+    "budget",
+    "savings",
+    "cache"
+  ]
+}
